@@ -1,0 +1,35 @@
+{
+    "name": "oxilo/tools",
+	"type": "library",
+    "description": "framework php \"the phpGerbill\" - v1.27",
+	"license": "MIT",
+	"homepage": "https://github.com/",
+	"keywords": [],
+	"authors": [
+		{
+			"name":  "phpGerbill", 
+			"email": "phpGerbill@o2.pl" 
+		}
+	],
+	
+    "require": {
+        "php": "^7.0"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "4.0.0"
+	},
+	
+	"autoload": {
+		"psr-4": { "Oxilo\\System\\Tool\\": "" },
+		"exclude-from-classmap": [
+            "/Tests/"
+        ]
+	},
+	
+	"minimum-stability": "dev",
+	"extra": {
+		"branch-alias": {
+			"dev-master": "4.2-dev"
+		}
+	}
+}
